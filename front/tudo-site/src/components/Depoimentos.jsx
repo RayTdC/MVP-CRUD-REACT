@@ -12,7 +12,7 @@ function Depoimentos() {
             <Col sm="12" md="10">
                 <strong>Depoimento 1</strong>
                 <p>
-                    "Super indico a loja. Além do atendimento maravilhoso as roupas são de excelente qualidade,trabalham só com os melhores tecidos.As roupas não desbotam,não dão bolinhas,não encolhem... simplesmente maravilhosas.O atendimento é nota 1000.Qualquer dúvida na hora da compra eles auxiliam e o envio tb é super rápido, chegando sempre antes do prazo. Sou fã da Moda e Magia ♥"
+                    "Super indico o aplicativo. Além do atendimento maravilhoso as roupas são de excelente qualidade,trabalham só com os melhores tecidos.As roupas não desbotam,não dão bolinhas,não encolhem... simplesmente maravilhosas.O atendimento é nota 1000.Qualquer dúvida na hora da compra eles auxiliam e o envio tb é super rápido, chegando sempre antes do prazo. Sou fã da Moda e Magia ♥"
                 </p>
             </Col>
         </Row>
@@ -34,7 +34,7 @@ function Depoimentos() {
             <Col sm="12" md="10">
                 <strong>Depoimento 3</strong>
                 <p>
-                "Só admiração por essa loja, fui a loja física e fui muito bem atendida, time nota 1000. Parabéns meninas, o atendimento faz toda a diferença em uma empresa, voltarei mais vezes."
+                "Só admiração por essa loja, fui a loja física e fui muito bem atendida pelo app também, time nota 1000. Parabéns meninas, o atendimento faz toda a diferença em uma empresa, voltarei mais vezes."
                 </p>
             </Col>
         </Row>        
