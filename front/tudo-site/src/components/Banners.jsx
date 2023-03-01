@@ -6,39 +6,43 @@ function Banners() {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="https://via.placeholder.com/1500x300/ffd000"
+                        src="https://horacampinas.com.br/wp-content/uploads/2022/03/abre-horizontal.jpg"
                         alt="Slide incrível"
                     />
                     <Carousel.Caption>
-                        <h5>EstudoApp</h5>
-                        <p>Um app para facilitar a vida do estudante!</p>
+                        <h5>CONFIRA NOSSOS PRODUTOS</h5>
+                        <p>Calça Jeans Flare Feminina R$ 69,00</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="https://via.placeholder.com/1500x300/ffd000"
+                        src="https://cdn.progresso.com.br/img/pc/780/530/dn_arquivo/2022/08/anyconvcom-design-sem-nome-4_2.jpg"
                         alt="Outro slide incrível"
                     />
                     <Carousel.Caption>
-                        <h5>Quais são as funcionalidades?</h5>
-                        <p>Confira os principais recursos disponíveis no app</p>
+                        <h5>ROUPAS DE FRIO</h5>
+                        <p>COM 50% DE DESCONTO</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="https://via.placeholder.com/1500x300/ffd000"
+                        src="https://checkregistros.com.br/wp-content/uploads/2021/08/burgess-milner-OYYE4g-I5ZQ-unsplash-scaled.jpg"
                         alt="Último slide"
                     />
                     <Carousel.Caption>
-                        <h5>Contato para parcerias?</h5>
+                        <h5>ROUPAS DE QUALIDADE</h5>
+                        <br></br>
                         <p>
-                            Entre em contato com a nossa equipe para conversar sobre oportunidades de parceria
+                           A PREÇO DE FABRICA
                         </p>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
+
+            
+            
     )
 }
 
