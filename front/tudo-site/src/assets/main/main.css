@@ -225,6 +225,7 @@ img {
     width: 100%;
 }
 
+
 /*Letras pretas, posição e tamanho*/
 
 .nossa-arte .item .btn-know-more{
@@ -401,5 +402,26 @@ img {
     text-align: center;
     font-family: Verdana, Tahoma, sans-serif;
     
+}
+.texto-sobre{
+    position: relative;
+    top: 10px;
+    font-size: 130%;
+}
+.mt-3{
+    position: relative;
+    top: 10px;
+}
+.texto-1{
+    position: relative;
+    top: 10px;
+}
+.texto-2{
+    position: relative;
+    top: 10px;
+}
+.texto-3{
+    position: relative;
+    top: 10px;
 }
 
