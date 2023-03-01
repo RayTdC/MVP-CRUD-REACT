@@ -10,7 +10,7 @@ function Home() {
     </secttion>
 
     <secttion class="nossa-arte" id="nossa-arte">
-        <div class="item">
+        <div class="item" id="item">
             <h3>𝓢𝓸𝓫𝓻𝓮 ✦</h3>
              <p>Tudo começou quando Ana cresceu, e decidiu ter       uma loja de roupas online, onde pudesse vender
                 peças femininas com um toque de Magia, lembrando de sua infância colorida onde sua mãe sempre lhe 
