@@ -394,9 +394,10 @@ img {
 }
  
 
-/* css da pagina sobre*/
+/* css da pagina SOBRE*/
 
 .conteudo-margin {
+    background-color:bisque;
     text-align: center;
     font-family: Verdana, Tahoma, sans-serif;
     
