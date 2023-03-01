@@ -18,14 +18,11 @@ function Sobre() {
 
     return (
         <Container className='conteudo-margin'>
-            <h1>Sobre Nossa Loja</h1>
+            <h1>Sobre Nosso Aplicativo</h1>
 
 
-            <h4>Nascemos em um pequeno cantinho, no interior de uma galeria, com 15 metros quadrados, em agosto de 2011. De lá pra cá, muuuita coisa mudou. Para melhor, é claro. Com o passar dos anos, fomos nos adaptando e aprendendo muito com cada uma das pessoas que por aqui passou. Passamos a compreender que a moda vai muito além de seguir tendências. Entendemos que se vestir é uma forma de comunicação, tem a ver com estilo individual de vida e precisa nos fazer sentir bem.
-Nossa meta é construir e manter, uma relação de confiança e amizade com você, através do nosso atendimento e acolhimento. Acreditamos que a Moda pode (e deve) ser Consciente, Descomplicada e Versátil.
-
-Para te apresentar a nossa proposta, realizamos uma curadoria minuciosa, com peças selecionadas a dedo e que sempre conversam entre si. Te demonstramos o quanto é possível consumir com consciência, ser descomplicada e abusar da versatilidade. Ahh, não podíamos esquecer de te contar o nosso toque final: aqui, em cade detalhe, você vai encontrar muuuuuito amor!
-
+            <h4>Quer aproveitar descontos em produtos de moda feminina? Isso é possível com o aplicativo da loja Moda e Magia. Disponível para Android, iPhone (iOS) e como plugin do Chrome, o programa gratuito traz ofertas para itens de marcas famosas.
+Para entrar em contato com nossa loja use seu e-mail, o usuário pode aproveitar as promoções e comprar com o cartão de crédito, débido e pix. É possível escolher modelos de roupas que estão na moda por um preço mais baixo e com muito mais qualidade.
 Vem fazer parte do nosso mundo!!! ♥</h4>
             <p>{sobre.text} </p>
             <Depoimentos />
