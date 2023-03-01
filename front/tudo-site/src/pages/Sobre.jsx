@@ -19,7 +19,7 @@ function Sobre() {
     return (
         <Container className='conteudo-margin'>
             <h1>Sobre</h1>
-            <p>{sobre.text}</p>
+            <p>{sobre.text} </p>
             <Depoimentos />
         </Container>
     );

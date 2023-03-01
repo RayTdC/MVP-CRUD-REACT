@@ -4,7 +4,9 @@ function Home() {
     return (
         <>
             <secttion class="nos-conheca">
-        <h1>𝓝𝓸𝓼 𝓬𝓸𝓷𝓱𝓮𝓬̧𝓪!</h1>
+        <h1>𝓝𝓸𝓼 𝓬𝓸𝓷𝓱𝓮𝓬̧𝓪!</h1> 
+       
+
     </secttion>
 
     <secttion class="nossa-arte" id="nossa-arte">
