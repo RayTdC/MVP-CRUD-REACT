@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    font-weight: 300;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+ul {
+    list-style: none;
+
+}
+:root {
+    --max-width-size: 1920px;
+}
+img {
+    max-width: 100%;
+}.conteudo-margin {
+    margin-top: 55px;
+}
+
+.active.nav-link {
+    color: #ffd105 !important;
+    border-bottom: 1px solid #ffd105 !important;
+}
+
+.nav-link{
+    border-bottom: 1px solid transparent;
+}
+.header nav ul {
+    display: flex;
+}
+.header nav ul li a {
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+.header nav ul li a:hover{
+    color:#fff;
+    background-color: coral;
+}
+.header .menu{
+    display: none;
+    width: 60px;
+    height: 60px;
+    align-self: flex-end;
+}
+.header nav label{
+    display: flex;
+    flex-direction: column;
+}
+.header .opcoes{
+    background-color: #000;
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 2px;
+    top:29px;
+    left: 15px;
+    transition: 0.5s ease-in-out;
+}
+.header .opcoes::before,
+.header .opcoes::after{
+    background-color: #000;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: 0.2s ease-in-out;
+
+}
+.header .opcoes::before{
+    top: -10px;
+}
+.header .opcoes::after{
+    bottom: -10px;
+}
+.header input{
+    display: none;
+}
+.header input:checked ~ label .opcoes{
+    transform: rotate(45deg);
+} 
+.header input:checked ~ label .opcoes:before{
+    transform: rotate(90deg);
+    top: 0;
+}
+.header input:checked ~ label .opcoes:after{
+    transform: rotate(90deg);
+    bottom: 0;
+}
+
+@media (max-width:900px) {
+    .header .menu{
+        display: block;
+        transition: 1s ease-in-out;
+    }
+    .header nav ul{
+        display: none;
+    }
+    .header input:checked ~ ul{
+        display: block;
+      }
+
+    .header nav {
+        position: absolute;
+        top: 8px;
+        right: 20px;
+        z-index: 1;
+        transition: 1s ease-in-out;
+    }
+    .header nav ul{
+        width: 200px;
+        background-color: #fff;
+        padding: 20px;
+        transition: 1s ease-in-out;
+    }
+    .header nav ul a {
+        text-align: center;
+        padding: 20px;
+        display: block;
+        transition: 1s ease-in-out;
+    }
+}
+.header{
+    grid-area: header;
+    background-color: #fff;
+}
+.header .header-container{
+    display: flex;
+    padding: 20px 40px;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 75px;
+}
+.header h1{
+    font-size: 3rem;
+    font-weight: 700;
+    transition: 0.3s;
+}
+.header a:hover h1{
+    color: coral;
+}
+
+@media (max-width: 425px) {
+    .header h1 {
+        font-size: 27px;
+    }
+}
+
+/* Nos conheça */
+
+.nos-conheca{
+    grid-area: hero;
+    height: 108vh;
+    background: url('./fundo.jpg') center center no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.nos-conheca h1{
+    font-weight:500;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    color: #000;
+
+}
+.nos-conheca:after{
+    content: url('./seta_preta.png');
+    position: absolute;
+    height: 35px;
+    bottom: 100px;
+    animation: downarrow 0.6s infinite alternate ease-in-out;
+
+}
+@-webkit-keyframes downarrow{
+    0% {-webkit-transform: translateY(0); opacity: 0.4;}
+    100% {-webkit-transform: translateY(0.4em); opacity: 0.9;}
+}
+@media (max-width: 425px) {
+    .nos-conheca {
+        height: 60vh;
+    }
+    .nos-conheca h1{
+        font-size: 2.5rem;
+    }
+}
+
+/* Nossa Arte */
+
+.nossa-arte{
+    grid-area: about;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color:#fff ;
+    max-width: var(--max-width-size);
+    margin: 0 auto;
+}
+.nossa-arte .item{
+    padding: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.nossa-arte .item h3{
+    font-weight: 700;
+    font-size: 4rem;
+}
+.nossa-arte .item p{
+    font-weight: 400;
+    font-size: 1.8rem;
+    margin:30px 0;
+}
+.nossa-arte .image{
+    height: 100%;
+    width: 100%;
+}
+
+/*Letras pretas, posição e tamanho*/
+
+.nossa-arte .item .btn-know-more{
+    font-size: 1.2rem;
+    font-weight: 400;
+    align-self: flex-start;
+    text-decoration: none;
+    color: #000;
+}
+.nossa-arte .item .btn-know-more:hover{
+    font-weight: 700;
+}
+.serviço-info .btn-know-more{
+    font-size: 1.6rem;
+    align-self: flex-start;
+}
+.serviço-info .btn-know-more:hover{
+    font-weight: 700;
+}
+
+/*imagens e posicionamentos*/
+
+.nossa-arte .image.rigth{
+    background: url('./pexels-tasha-kamrowski-9876271.jpg') center center no-repeat;
+    background-size: cover;
+}
+.nossa-arte .image.left{
+    background: url('./pexels-jill-burrow-67732162.jpg') center center no-repeat;
+    background-size: cover;
+
+}
+
+@media (max-width: 425px){
+    .nossa-arte .item{
+        text-align:center;
+        transition: 1s ease-in-out;
+    }
+    .nossa-arte {
+        grid-template-columns: 1fr;
+        grid-template-rows:repeat(4,1fr) ;
+        transition: 1s ease-in-out;
+    }
+}
+/* Serviços */
+
+.services{
+    grid-area: services;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+.services .service{
+    padding: 70px 20px;
+}
+.service .service img{
+    width: 250px;
+    margin-bottom: 30px;
+}
+.services .service h3{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.services .service p{
+    font-size: 2rem;
+    font-weight: 400;
+    max-width: 400px;
+    margin: 20px auto 0;
+    line-height: 25px;
+}
+.services .service:nth-child(1) {
+    background-color: lightskyblue;
+}
+
+.services .service:nth-child(2) {
+    background-color: lightpink;
+}
+
+@media (max-width: 425px) {
+    .services {
+        grid-template-columns: 1fr;
+        transition: 1s ease-in-out;
+    }
+}
+/* Alguns feitos */
+
+.alguns-feitos{
+    grid-area: projects;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.alguns-feitos img{
+    height: 100%;
+    transition: 0.3s;
+}
+.alguns-feitos a:hover img{
+    opacity: 0.8;
+}
+
+@media (max-width:768px) {
+    .alguns-feitos{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        transition: 1s ease-in-out;
+    }
+}
+@media (max-width: 425px){
+    .alguns-feitos {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        transition: 1s ease-in-out;
+    }
+}
+
+/* footer */
+
+.footer{
+    grid-area: footer;
+    display: flex;
+    background-color: rgb(218, 120, 8);
+    flex-direction: column;
+    text-align: center;
+    padding: 100px 0;
+   
+}
+.footer h4{
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.footer nav{
+    margin: 50px 0;
+}
+.footer nav ul{
+    display: flex;
+    justify-content: center;
+    max-width: 320px;
+    margin: 0 auto;
+}
+.footer nav ul li a{
+    font-weight: 500;
+    font-size: 2rem;
+    margin: 20px;
+    transition: 0.3s;
+}
+.footer nav ul li a:hover{
+    font-weight: 700;
+    color: #ffffff;
+}
+.footer .footer i{
+    font-size: 2rem;
+    transition: 0.3s;
+}
+.footer .footer a{
+    margin: 20px;
+}
+.footer .footer a:hover{
+    color: #fff;
+}
+.voltar-ao-topo a:hover{
+    color: #ffffff;
+}
+
+/* Id (configuração da borda de duas imagens*/
+
+#pessoas-venda, #roupas-qualidade{
+    border-radius: 50%;
+}
