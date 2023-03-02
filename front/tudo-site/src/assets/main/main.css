@@ -217,12 +217,16 @@ img {
 }
 .nossa-arte .item p{
     font-weight: 400;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     margin:30px 0;
 }
 .nossa-arte .image{
     height: 100%;
     width: 100%;
+}
+#item, #item1{
+    height: 70vh;
+    
 }
 
 
@@ -321,9 +325,8 @@ img {
     height: 100%;
     transition: 0.3s;
 }
-.alguns-feitos a:hover img{
-    opacity: 0.8;
-}
+
+
 
 @media (max-width:768px) {
     .alguns-feitos{
@@ -337,6 +340,33 @@ img {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(4, 1fr);
         transition: 1s ease-in-out;
+    }
+    .titulo-sobre{
+        font-size: 1.0rem;
+        position: relative;
+        top: 30px;
+    }
+    .titulo-app{
+        font-size: 1.0rem;
+        position: relative;
+        top: 20px;
+    }
+}
+@media (max-width: 375px){
+    .alguns-feitos {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        transition: 1s ease-in-out;
+    }
+    .titulo-sobre{
+        font-size: 1.0rem;
+        position: relative;
+        top: 30px;
+    }
+    .titulo-app{
+        font-size: 1.0rem;
+        position: relative;
+        top: 20px;
     }
 }
 

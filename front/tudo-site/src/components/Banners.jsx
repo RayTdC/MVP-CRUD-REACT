@@ -35,7 +35,7 @@ function Banners() {
                         <h5>ROUPAS DE QUALIDADE</h5>
                         <br></br>
                         <p>
-                           A PREÇO DE FABRICA
+                           A PREÇO DE FÁBRICA
                         </p>
                     </Carousel.Caption>
                 </Carousel.Item>
