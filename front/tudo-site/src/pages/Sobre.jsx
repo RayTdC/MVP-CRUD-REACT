@@ -18,7 +18,7 @@ function Sobre() {
 
     return (
         <Container className='conteudo-margin'>
-            <h1 className='sobre-titulo'>𝙎𝙤𝙗𝙧𝙚 𝙣𝙤𝙨𝙨𝙤 𝘼𝙥𝙡𝙞𝙘𝙖𝙩𝙞𝙫𝙤</h1>
+            <h1 className='sobre-titulo' >𝙎𝙤𝙗𝙧𝙚 𝙣𝙤𝙨𝙨𝙤 𝘼𝙥𝙡𝙞𝙘𝙖𝙩𝙞𝙫𝙤</h1>
  
             <p>{sobre.text} </p>
             <Depoimentos />

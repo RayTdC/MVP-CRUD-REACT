@@ -158,7 +158,7 @@ img {
 
 .nos-conheca{
     grid-area: hero;
-    height: 108vh;
+    height: 107vh;
     background: url('./fundo.jpg') center center no-repeat;
     background-size: cover;
     display: flex;
