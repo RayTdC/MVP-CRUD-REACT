@@ -6,7 +6,7 @@ function Banners() {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="https://horacampinas.com.br/wp-content/uploads/2022/03/abre-horizontal.jpg"
+                        src="https://user-images.githubusercontent.com/112560788/222493303-80f638ac-d8fd-4170-960e-62648cca9e09.png"
                         alt="Slide incrível"
                     />
                     <Carousel.Caption>
@@ -17,25 +17,25 @@ function Banners() {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="https://cdn.progresso.com.br/img/pc/780/530/dn_arquivo/2022/08/anyconvcom-design-sem-nome-4_2.jpg"
+                        src="https://user-images.githubusercontent.com/112560788/222491841-f34a12f7-4326-4e24-8270-dd030dca80ba.png"
                         alt="Outro slide incrível"
                     />
                     <Carousel.Caption>
-                        <h5>ROUPAS DE FRIO</h5>
-                        <p>COM 50% DE DESCONTO</p>
+                        <h5></h5>
+                        <p></p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="https://checkregistros.com.br/wp-content/uploads/2021/08/burgess-milner-OYYE4g-I5ZQ-unsplash-scaled.jpg"
+                        src="https://user-images.githubusercontent.com/112560788/222493663-6ce7cf3c-751f-4147-b622-225e85d847a9.png"
                         alt="Último slide"
                     />
                     <Carousel.Caption>
-                        <h5>ROUPAS DE QUALIDADE</h5>
+                        <h5></h5>
                         <br></br>
                         <p>
-                           A PREÇO DE FÁBRICA
+                           
                         </p>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -47,3 +47,4 @@ function Banners() {
 }
 
 export default Banners
+
