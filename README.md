@@ -39,18 +39,21 @@
   <div align="center">
   <h2>DESENVOLVEDORES⬇️🚀</h2>
   
-  ![desenvolvedores](https://user-images.githubusercontent.com/112557800/221098302-c22091a8-238a-4e20-8bf2-e14dcda61b03.jpeg)
+  ![devs](https://user-images.githubusercontent.com/112362301/222723339-f8c1917a-1749-47e2-b723-b075dfc33ae3.png)
+
   
 ## GitHub:
-
-  Andrielly Souza: https://github.com/andrielly157
   
-  Ester Ramos: https://github.com/EsterM99
+    Felipe Barros: https://github.com/felipebarr0os
+ 
+    Rannyelle: https://github.com/Rannyelle
   
-  Felipe Barros: https://github.com/felipebarr0os
+    Andrielly Souza: https://github.com/andrielly157
+ 
+    Ester Ramos: https://github.com/EsterM99
   
-  Raísha: https://github.com/RayTdC
+    Raísha: https://github.com/RayTdC
   
-  Rannyelle: https://github.com/Rannyelle
+ 
 
  
