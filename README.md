@@ -44,15 +44,15 @@
   
 ## GitHub:
   
-    Felipe Barros: https://github.com/felipebarr0os
- 
-    Rannyelle: https://github.com/Rannyelle
-  
-    Andrielly Souza: https://github.com/andrielly157
- 
-    Ester Ramos: https://github.com/EsterM99
-  
-    Raísha: https://github.com/RayTdC
+  Felipe Barros: https://github.com/felipebarr0os
+    
+  Rannyelle: https://github.com/Rannyelle
+    
+  Andrielly Souza: https://github.com/andrielly157
+    
+  Ester Ramos: https://github.com/EsterM99
+    
+  Raísha: https://github.com/RayTdC
   
  
 
