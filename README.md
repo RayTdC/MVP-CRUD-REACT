@@ -17,6 +17,7 @@
     <li> Trello;</li>
     <li> Canva;</li>
     <li> GitHub Desktop;</li>
+    <li> SQLite;</li>
  </ul>
 
 ![tec-2](https://user-images.githubusercontent.com/112557800/222606162-56d67a30-4f66-459a-9f07-ae62617029f5.jpeg)
