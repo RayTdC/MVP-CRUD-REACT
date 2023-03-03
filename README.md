@@ -1,6 +1,6 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=FFFFF1&size=40&center=true&vCenter=true&width=1000&lines=++PROJETO+MVP+CRUD+REACT)](https://git.io/typing-svg)
 
-# 💻 App Desenvolvido Escolhido: Loja de Roupas Moda e Magia 💻
+# 💻 App escolhido: Loja de Roupas Moda e Magia 💻
 
 [hitpaw-1677847148771.webm](https://user-images.githubusercontent.com/112362301/222722722-61b0a7cc-e1bd-42e5-8d77-77abf48744db.webm)
 
