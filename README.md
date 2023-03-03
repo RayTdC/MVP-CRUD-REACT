@@ -20,7 +20,7 @@
     <li> SQLite;</li>
  </ul>
 
-![tec-2](https://user-images.githubusercontent.com/112557800/222606162-56d67a30-4f66-459a-9f07-ae62617029f5.jpeg)
+![tecnologias ultilizadas](https://user-images.githubusercontent.com/112362301/222715946-c95c6ae4-c82a-46fb-9490-1e8594c874eb.png)
 
 
   <div align="center">
