@@ -11,7 +11,7 @@ function Contato() {
 
     return (
         <Container className='conteudo-margin'>
-            <h1>Contato</h1>
+            <h1>𝒞𝒪𝒩𝒯𝒜𝒯𝒪</h1>
             <p>Entre em contato conosco</p>
 
             <Form onSubmit={handleSubmit}>

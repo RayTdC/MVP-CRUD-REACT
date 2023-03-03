@@ -25,7 +25,7 @@ function Funcionalidades() {
         <>
         <Banners />
         <Container className="conteudo-margin">
-            <h1>Funcionalidades</h1>
+            <h1>𝙵𝚞𝚗𝚌𝚒𝚘𝚗𝚊𝚕𝚒𝚍𝚊𝚍𝚎𝚜</h1>
             <ListaFuncionalidades funcionalidades={funcionalidades} />
         </Container>
         </>

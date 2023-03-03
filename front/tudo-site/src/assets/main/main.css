@@ -429,7 +429,7 @@ img {
 /* css da pagina SOBRE*/
 
 .conteudo-margin {
-    background-color:bisque;
+    background-color:rgba(165, 8, 60, 0.719);
     text-align: center;
     font-family: Verdana, Tahoma, sans-serif;
     
@@ -455,4 +455,7 @@ img {
     position: relative;
     top: 10px;
 }
-
+.legenda{
+    color:beige;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5), 1px 1px 1px rgba(255, 255, 255, 0.5);
+}
