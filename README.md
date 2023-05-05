@@ -5,7 +5,7 @@
 [hitpaw-1677847148771.webm](https://user-images.githubusercontent.com/112362301/222722722-61b0a7cc-e1bd-42e5-8d77-77abf48744db.webm)
 
 # 📍Sobre o projeto
-<h3> O site precisa ter - página inicial, sobre (com conteúdo editável), funcionalidades (com conteúdo cadastrável e editável) e uma tela de contato. O conteúdo das páginas sobre e funcionalidades deve ser consultado de uma API. Para realizar a edição e cadastro serão criadas rotas /admin. </h3>
+<h3> O site precisa ter: Página inicial, sobre (com conteúdo editável), funcionalidades (com conteúdo cadastrável e editável) e uma tela de contato. O conteúdo das páginas sobre e funcionalidades deve ser consultado de uma API. Para realizar a edição e cadastro serão criadas rotas /admin. </h3>
 
 # Como startar o Projeto ?
 
